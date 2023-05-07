@@ -14,6 +14,7 @@ h1 {
     text-align: center;
     letter-spacing: 0.03em;
     color: #241E1F;
+    margin: 0;
 }
 
 h2 {
@@ -24,9 +25,21 @@ h2 {
     line-height: 48px;
     text-align: center;
     color: #241E1F;
+    margin: 0;
 }
 
-p {
+h3 {
+    font-family: 'EB Garamond';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+p, a {
     font-family: 'EB Garamond';
     font-style: normal;
     font-weight: 500;
@@ -36,6 +49,7 @@ p {
     align-items: center;
     text-align: center;
     color: #241E1F;
+    margin: 0;
 }
 
 header {
@@ -117,6 +131,7 @@ button p {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
+    align-items: center;
 }
 
 .icon img {
@@ -130,4 +145,123 @@ button p {
 
 .adv {
     padding: 120px 0;
+}
+
+.about-us {
+    background-image: url(../img/fon2.png);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 120px 0;
+}
+
+.about {
+    box-sizing: border-box;
+    width: 60%;
+    background: rgba(251, 241, 241, 0.01);
+    border: 1px solid #FBF1F1;
+    backdrop-filter: blur(20px);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 100px 100px 100px;
+    margin: 20px 0;
+}
+
+.about h2 {
+    color: #FFFFFF;
+}
+
+.dress {
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.silyet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 80px auto 0 auto;
+}
+
+.dresses {
+    padding: 120px 0;
+}
+
+.razd {
+    width: 20%;
+    align-items: center;
+    display: flex;
+    margin: 0 auto 120px auto;
+}
+
+.images1 {
+    background-image: url(../img/card1.png);
+    width: 280px;
+    height: 370px;
+    border-radius: 8px;
+}
+
+.images2 {
+    background-image: url(../img/card2.png);
+    width: 280px;
+    height: 370px;
+    border-radius: 8px;
+}
+
+.images3 {
+    background-image: url(../img/card3.png);
+    width: 280px;
+    height: 370px;
+    border-radius: 8px;
+}
+
+.images4 {
+    background-image: url(../img/card4.png);
+    width: 280px;
+    height: 370px;
+    border-radius: 8px;
+}
+
+.card img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: 238px;
+}
+
+.price {
+    width: 280px;
+    height: 111px;
+    background: #EABBC4;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.pr {
+    display: flex;
+    flex-direction: row; 
+}
+
+.line {
+    text-decoration-line: line-through;
+    margin-right: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    align-items: center;
+    margin: 80px auto 40px auto;
+    gap: 20px;
 }
